@@ -1,7 +1,9 @@
 Meu jogo
 codigo do jogando
 
-```GDSscript
+```
+GDSscript
+_____________________________________________________________________________________________
 func read_input() -> void:
 	# Obter o input vector
 	input_vector = Input.get_vector("move_left", "move_right", "move_up", "move_down")
@@ -18,7 +20,9 @@ func read_input() -> void:
 	is_running = not input_vector.is_zero_approx()
 ```
 
-```Controles do jogo
+```
+Controles do jogo
+_________________________________________________________________________
 W 
 A
 S
