@@ -1,0 +1,70 @@
+[gd_scene load_steps=13 format=3 uid="uid://csayu7n0y02it"]
+
+[ext_resource type="Texture2D" uid="uid://dt432gokexo66" path="res://addons/Tiny Swords/Factions/Knights/Troops/Warrior/Red/Warrior_Red.png" id="1_qkmup"]
+[ext_resource type="PackedScene" uid="uid://ts4xhcbibtiw" path="res://player/player.tscn" id="2_vqtfg"]
+[ext_resource type="Texture2D" uid="uid://403pfv6cgjne" path="res://addons/Tiny Swords/UI/Banners/Banner_Horizontal.png" id="4_jof5h"]
+[ext_resource type="Texture2D" uid="uid://444tn3xfu2i" path="res://addons/Tiny Swords/UI/Banners/Banner_Vertical.png" id="5_q4udi"]
+[ext_resource type="Texture2D" uid="uid://c6fse8fvtfhfy" path="res://addons/Tiny Swords/UI/Banners/Carved_9Slides.png" id="6_htlqd"]
+[ext_resource type="PackedScene" uid="uid://dikwyrhgb8vob" path="res://misc/meat.tscn" id="6_rykcv"]
+[ext_resource type="Texture2D" uid="uid://nicx7hkaj2t1" path="res://addons/Tiny Swords/UI/Ribbons/Ribbon_Blue_3Slides.png" id="7_7j053"]
+[ext_resource type="Texture2D" uid="uid://16v74hb7pd0q" path="res://addons/Tiny Swords/UI/Buttons/Button_Blue_9Slides.png" id="8_ww8vi"]
+[ext_resource type="Texture2D" uid="uid://bw3hvcw8i363t" path="res://addons/Tiny Swords/UI/Pointers/01.png" id="9_684yl"]
+[ext_resource type="Texture2D" uid="uid://qs5kfjqh3u0u" path="res://addons/Tiny Swords/UI/Icons/Pressed_02.png" id="10_2iukl"]
+[ext_resource type="Texture2D" uid="uid://eub4vu0njrqo" path="res://addons/Tiny Swords/UI/Icons/Regular_03.png" id="11_g5qr0"]
+[ext_resource type="Texture2D" uid="uid://2d05pd8cum3g" path="res://addons/Tiny Swords/UI/Icons/Pressed_07.png" id="12_7tbho"]
+
+[node name="TestPlayer" type="Node2D"]
+
+[node name="WarriorRed" type="Sprite2D" parent="."]
+position = Vector2(2002, 795)
+texture = ExtResource("1_qkmup")
+
+[node name="Label" type="Label" parent="WarriorRed"]
+offset_left = -263.0
+offset_top = -790.0
+offset_right = -143.0
+offset_bottom = -767.0
+scale = Vector2(3.19413, 3.14522)
+text = "golpes e correr "
+
+[node name="Player" parent="." instance=ExtResource("2_vqtfg")]
+position = Vector2(595, 285)
+
+[node name="Meat" parent="." instance=ExtResource("6_rykcv")]
+position = Vector2(88, 96)
+
+[node name="BannerHorizontal" type="Sprite2D" parent="."]
+position = Vector2(-1460, 1209)
+texture = ExtResource("4_jof5h")
+
+[node name="BannerVertical" type="Sprite2D" parent="."]
+position = Vector2(-1337, 1226)
+texture = ExtResource("5_q4udi")
+
+[node name="Carved9Slides" type="Sprite2D" parent="."]
+position = Vector2(-1156, 1219)
+texture = ExtResource("6_htlqd")
+
+[node name="RibbonBlue3Slides" type="Sprite2D" parent="."]
+position = Vector2(-1559, 1447)
+texture = ExtResource("7_7j053")
+
+[node name="ButtonBlue9Slides" type="Sprite2D" parent="."]
+position = Vector2(-1660, 1240)
+texture = ExtResource("8_ww8vi")
+
+[node name="01" type="Sprite2D" parent="."]
+position = Vector2(-957, 1236)
+texture = ExtResource("9_684yl")
+
+[node name="Pressed02" type="Sprite2D" parent="."]
+position = Vector2(-1678, 1222)
+texture = ExtResource("10_2iukl")
+
+[node name="Regular03" type="Sprite2D" parent="."]
+position = Vector2(-1677, 1278)
+texture = ExtResource("11_g5qr0")
+
+[node name="Pressed07" type="Sprite2D" parent="."]
+position = Vector2(-1621, 1264)
+texture = ExtResource("12_7tbho")

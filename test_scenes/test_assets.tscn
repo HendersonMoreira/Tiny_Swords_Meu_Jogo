@@ -1,0 +1,44 @@
+[gd_scene load_steps=9 format=3 uid="uid://bcx2twd4dg6e5"]
+
+[ext_resource type="Texture2D" uid="uid://b8okslfuar6mj" path="res://addons/Tiny Swords/Factions/Knights/Troops/Pawn/Red/Pawn_Red.png" id="1_6lsyu"]
+[ext_resource type="Texture2D" uid="uid://bi0qu5hyep6e" path="res://addons/Tiny Swords/Factions/Knights/Troops/Dead/Dead.png" id="2_kbeuk"]
+[ext_resource type="Texture2D" uid="uid://duvyy0h4kc17w" path="res://addons/Tiny Swords/Factions/Knights/Troops/Archer/Red/Archer_Red.png" id="3_50fnw"]
+[ext_resource type="Texture2D" uid="uid://br7ot1fhmxu08" path="res://addons/Tiny Swords/Factions/Goblins/Troops/Torch/Red/Torch_Red.png" id="4_4cmhd"]
+[ext_resource type="Texture2D" uid="uid://c53kyfc8j4m81" path="res://addons/Tiny Swords/Factions/Goblins/Troops/TNT/Red/TNT_Red.png" id="5_nmvgm"]
+[ext_resource type="Texture2D" uid="uid://daypsa8oe47gf" path="res://addons/Tiny Swords/Factions/Goblins/Troops/TNT/Dynamite/Dynamite.png" id="6_wtwvd"]
+[ext_resource type="Texture2D" uid="uid://cf8lmof0p0e1t" path="res://addons/Tiny Swords/Factions/Goblins/Troops/Barrel/Red/Barrel_Red.png" id="7_c4fsl"]
+[ext_resource type="Texture2D" uid="uid://bvvugm3krkkhg" path="res://addons/Tiny Swords/Resources/Resources/M_Spawn.png" id="8_f3ocq"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="PawnRed" type="Sprite2D" parent="."]
+position = Vector2(1508, 564)
+texture = ExtResource("1_6lsyu")
+
+[node name="Dead" type="Sprite2D" parent="."]
+position = Vector2(1487, 1309)
+texture = ExtResource("2_kbeuk")
+
+[node name="ArcherRed" type="Sprite2D" parent="."]
+position = Vector2(2866, 682)
+texture = ExtResource("3_50fnw")
+
+[node name="TorchRed" type="Sprite2D" parent="."]
+position = Vector2(470, 2013)
+texture = ExtResource("4_4cmhd")
+
+[node name="TntRed" type="Sprite2D" parent="."]
+position = Vector2(1833, 1815)
+texture = ExtResource("5_nmvgm")
+
+[node name="Dynamite" type="Sprite2D" parent="."]
+position = Vector2(1631, 2206)
+texture = ExtResource("6_wtwvd")
+
+[node name="BarrelRed" type="Sprite2D" parent="."]
+position = Vector2(3124, 1882)
+texture = ExtResource("7_c4fsl")
+
+[node name="MSpawn" type="Sprite2D" parent="."]
+position = Vector2(491, 2617)
+texture = ExtResource("8_f3ocq")
